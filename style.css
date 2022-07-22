@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=League+Gothic&family=Smooch&family=Stick+No+Bills:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* text-align: center; */
+    background-color: #ebd6d3;
+    font-family: 'Acme', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:top;
+    list-style: none;
+    
+}
+#logo-image img{
+    width: 80px;
+    height:60px;
+
+}
+nav ul li{
+    margin-left: 15px;
+    font-size:1.1em;
+   
+}
+nav{
+    background-color:whitesmoke;
+    position: fixed;
+    width:100vw;
+    height:10.5vh;
+    animation:  nav 2s ease-in-out;
+  
+}
+@keyframes nav{
+    0%{
+        transform:translatey(-100%);
+    }
+
+}
+#anchor li a{
+    padding-right: 17px;
+    text-decoration: none;
+    color: rgb(91, 126, 207);
+}
+#anchor li a:hover{
+    color:red;
+}
+header{
+    color:white;
+    display: flex ;
+    flex-direction:column ;
+    align-items: center;
+    background-color: black;
+    font-size:1.5em;
+    animation:header 2s ease-in-out;
+}
+@keyframes header{
+    0%{
+        transform:translatex(-100%)
+      }
+    100%{
+       
+        transform: translatex(100%);
+        }
+        
+    }
+
+#bio-name{
+  text-align: center;
+  font-size:2em;
+}
+#aboutme {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+#aboutme img{
+    width: 150vw;
+    height: 30vh;
+    border-radius: 700px;
+    margin: 5%;
+}
+#portfolio{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between; 
+    align-items: center;
+    background-color:rgb(228, 181, 226);
+    text-align: center;
+    
+}
+#portfolio-name{
+    text-align: center;
+    font-size:2em;
+
+}
+#pftext
+{
+    text-align: center;
+    font-size:2em;
+    padding-left: 50px;
+}
+#pfi{
+    width:30vw;
+    border: solid black 3px;
+    border-radius: 5%;
+}
+#skills{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+   
+    
+}
+#s li{
+   list-style: none;
+   
+}
+#s{
+
+    background-color: rgb(228, 181, 226);
+
+}
+#skills-name{
+    text-align: center;
+    font-size:2em;
+}
+#insta-img{
+    width: 5vw;
+    height: 8vh;
+}
+#twitter-img{
+    width: 5vw;
+    height: 10vh;
+
+}
+#contact-nv{
+    background-color: rgb(122, 215, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+@media (max-width: 575.98px){ 
+    nav ul li{
+        margin-left: 4px;
+        font-size:1em;
+       
+    }
+    #insta-img{
+        width: 10vw;
+        height: 7vh;
+    }
+    #twitter-img{
+        width: 10vw;
+        height: 7vh;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+   
